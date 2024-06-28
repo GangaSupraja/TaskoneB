@@ -1,0 +1,21 @@
+package corejava;
+
+import java.util.Scanner;
+
+public class TaskoneB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("enter the age");
+		Scanner sc = new Scanner(System.in);
+		int age=sc.nextInt();
+		if(age>60 || age<15) {
+			System.out.println("Not Allowed");
+		}
+		else {
+			System.out.println("Allowed");
+		}
+
+	}
+
+}
